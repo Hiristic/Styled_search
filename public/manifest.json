@@ -1,0 +1,15 @@
+{
+  "short_name": "Innekoll",
+  "name": "Innekoll",
+  "icons": [
+    {
+      "src": "favicon-96x96.png",
+      "sizes": "96x96 32x32 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f3b99", //Not used?
+  "background_color": "#b9bbc9" //Not used?
+}
