@@ -19,6 +19,7 @@ const Product = ({ result: product }) => {
           updateModal(product);
           openModal();
         };
+        /* TODO remove not needed there should allways be enough data
         const clickAction = hasProductModal
           ? { onClick: openProductModal }
           : {
@@ -26,10 +27,12 @@ const Product = ({ result: product }) => {
               target: '_blank',
               rel: 'noreferrer noopener',
             };
+*/
 
+        const clickAction = { onClick: openProductModal }
         return (
           <a className="product" {...clickAction}>
-            <img src={product.logo.raw} alt={title} />
+            {/*<img src={product.logo.raw} alt={title} />*/}
             <div className="product__overlay">
               <h3 className="product__title">{title}</h3>
               <h4 className="product__studio">{product.kategori.raw}</h4>
@@ -64,7 +67,7 @@ const ProductModal = ({ product }) => {
           )}
         </ul>
 
-        <div dangerouslySetInnerHTML={{ __html: product.innehall.raw }}></div>
+        <div dangerouslySetInnerHTML={{ __html: product.produkt.raw }}></div>
 
         <a
           className="product-modal__cta button button--important"

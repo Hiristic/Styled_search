@@ -33,7 +33,7 @@ const configurationOptions = {
     },
   },
 
-  //TODO remove
+  //TODO Fix duplicate input
   searchQuery: {
     search_fields: {
       produkt: {},
@@ -55,6 +55,7 @@ const configurationOptions = {
       kemikalier: { type: 'value', size: 5 },
       leverantor: { type: 'value', size: 100 },
       kategori: { type: 'value', size: 25 },
+      ingredienser_list: { type: 'value', size: 25 },
     },
     disjunctiveFacets: ['kemikalier', 'leverantor', 'kategori'],
   },

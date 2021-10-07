@@ -71,9 +71,8 @@ const Filtering = () => (
     />
     <Facet field="kemikalier" label="Kemikalier" filterType="any" />
     <Facet field="leverantor" label="Leverantor" filterType="any" />
-    <Facet field="ingredienser_list" label="Ingredienser" isFilterable={true} filterType="any"/>
     <Facet field="kategori" label="Kategori" filterType="any"/>
- 
+    <Facet field="ingredienser_list" label="Ingredienser" isFilterable={true} filterType="any"/>
   </>
 );
 
