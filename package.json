@@ -11,7 +11,7 @@
     "react-scripts": "4.0.3"
   },
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
